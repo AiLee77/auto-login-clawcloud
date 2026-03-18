@@ -3,7 +3,6 @@ import os
 import time
 import pyotp
 from playwright.sync_api import sync_playwright
-# 【核心修复】：针对 playwright-stealth 2.x 版本的最新导入语法
 from playwright_stealth import Stealth 
 
 def run_login():
